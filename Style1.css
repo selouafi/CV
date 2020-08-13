@@ -1,2 +1,56 @@
 ﻿body {
+
+    display:flex;
+}
+
+
+
+
+#conteneur1 {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    justify-content: space-between;
+    background-color: #FFC107;
+    text-align:center;
+    
+    
+    
+    
+}
+
+#conteneur2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titregauche {
+    background-color: #37474F;
+    text-align: center;
+    color: #FFC107;
+}
+
+.loisirs {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-left: 10%;
+};
+
+.contact {
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.apropos {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left:10%;
+}
+
+.photo {
+    padding: 3%;
 }
